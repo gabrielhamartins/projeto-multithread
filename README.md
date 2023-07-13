@@ -13,7 +13,7 @@ Projeto 1 da matéria MC504 ministrada pela Profa. Islene Calciolari Garcia.
 ## Como rodar
 
 - $ gcc bathroom.c -lpthread -o bathroom
-- ./bathroomarg1 arg2
+- ./bathroom arg1 arg2
 - No repositório também há versões já compiladas "bathroom" ou "bathroom.exe", caso queira pular a primeira parte.
 
 ## Argumentos
