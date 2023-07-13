@@ -34,15 +34,22 @@ O "Problema do Banheiro Unissex" está presente no livro The Little Book of Sema
 - Nunca deve haver mais de três* funcionários esbanjando tempo no banheiro.
 
 Para resolvê-lo, foram usadas as bibliotecas pthread e semaphore na linguagem C, e o código está no arquivo bathroom.c.
+
 *no caso desta implementação, temos a opção de aumentar o número de vagas no banheiro através dos argumentos.
 
 ## Estado global
 Toda vez que um homem ou mulher entram no banheiro, é printado no console o estado global da aplicação, como no exemplo:
 
 X X X
+
 F X X
+
 F F X
+
 F X X
+
 X X X
+
 M X X
+
 X X X
